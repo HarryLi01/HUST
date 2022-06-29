@@ -38,7 +38,7 @@ struct Login: View {
             }
             Button(action: getLoginJsp) {
                 Text("Login")
-                    .frame(width: 80, height:25)
+                    .frame(width: 80, height:250)
             }
             .buttonStyle(.borderedProminent)
         }
@@ -46,10 +46,9 @@ struct Login: View {
     }
     
     func getLoginJsp() {
-        let request = AF.request("http://jwzx.hrbust.edu.cn/academic/common/security/login.jsp")
-        request.response { resp in
-            print(resp)
-        }
+        let request = AF.request("https://www.usc.edu/").response
+        print(request)
+        
     }
 }
 
