@@ -1,0 +1,6 @@
+module Pods_HUST {
+  umbrella header "Pods-HUST-umbrella.h"
+
+  export *
+  module * { export * }
+}
