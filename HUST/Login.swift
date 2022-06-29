@@ -38,7 +38,9 @@ struct Login: View {
             }
             Button(action: getLoginJsp) {
                 Text("Login")
+                    .frame(width: 80, height:25)
             }
+            .buttonStyle(.borderedProminent)
         }
         
     }
