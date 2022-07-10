@@ -30,7 +30,7 @@ struct Login: View {
             .disableAutocorrection(true)
             .border(.secondary)
             Section {
-                TextField(text: $authenticationCode, prompt: Text("Required")) {
+                TextField(text: $authenticationCode, prompt: Text(" Required")) {
                     Text("Authenciation code")
                 }
                 .frame(width: 100, height: 30, alignment: .center)
@@ -38,7 +38,7 @@ struct Login: View {
             }
             Button(action: getLoginJsp) {
                 Text("Login")
-                    .frame(width: 80, height:250)
+                    .frame(width: 80, height:20)
             }
             .buttonStyle(.borderedProminent)
         }

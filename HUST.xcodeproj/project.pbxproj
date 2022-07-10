@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A744E4E287B177700BB334C /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A744E4D287B177700BB334C /* MainPage.swift */; };
 		0A95C9562851BFB200FA4A61 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A95C9552851BFB200FA4A61 /* Login.swift */; };
 		0AA94600284F952B005210D2 /* HUSTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA945FF284F952B005210D2 /* HUSTApp.swift */; };
 		0AA94602284F952B005210D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA94601284F952B005210D2 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		05F7C862363F3E682432AADE /* Pods-HUST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUST.release.xcconfig"; path = "Target Support Files/Pods-HUST/Pods-HUST.release.xcconfig"; sourceTree = "<group>"; };
+		0A744E4D287B177700BB334C /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		0A95C9552851BFB200FA4A61 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		0AA945FC284F952B005210D2 /* HUST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA945FF284F952B005210D2 /* HUSTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUSTApp.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				0AA94601284F952B005210D2 /* ContentView.swift */,
 				0AA94603284F952C005210D2 /* Assets.xcassets */,
 				0AA94605284F952C005210D2 /* Preview Content */,
+				0A744E4D287B177700BB334C /* MainPage.swift */,
 			);
 			path = HUST;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				0A95C9562851BFB200FA4A61 /* Login.swift in Sources */,
 				0AA94602284F952B005210D2 /* ContentView.swift in Sources */,
 				0AA94600284F952B005210D2 /* HUSTApp.swift in Sources */,
+				0A744E4E287B177700BB334C /* MainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
